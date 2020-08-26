@@ -14,7 +14,6 @@ namespace API_Roulette.Controllers
     public class OnlineTableController : ControllerBase
     {
         private readonly AppDbContext context;
-
         public OnlineTableController(AppDbContext context)
         {
             this.context = context;
